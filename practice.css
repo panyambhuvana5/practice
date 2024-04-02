@@ -1,0 +1,45 @@
+body {
+    color: aquamarine;
+}
+body {  
+    background-color:teal;
+    color:white;
+}
+  
+h1 {
+    margin-top: 3rem;
+    font-weight: 400;
+}  
+.site-container {
+  border:none;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+.offsite-container {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -14rem;
+    width: 14rem;
+    background-color: gray;
+  }
+  .offsite-is-open .site-container,
+  .offsite-is-open .offsite-container {
+    transform: translateX(14rem);
+  }
+  
+  
+  .menu-button > * {
+    display: block;
+    pointer-events: none;
+  }
+  
+  .nav {
+    margin-top: 8rem;
+  }
+  .nav a {
+    display: block;
+    padding: 0.5rem 3rem;
+  }
+  
+  
